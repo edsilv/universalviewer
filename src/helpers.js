@@ -6,7 +6,7 @@ function createUV(selector, data, dataProvider) {
     var $parent = $('<div></div>');
     $container.append($parent);
     var $uv = $('<div></div>');
-    $parent.append($uv);
+    $parent.append($uv); 
 
     function resize() {
         if (uv) {
